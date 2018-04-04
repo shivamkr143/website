@@ -1,0 +1,35 @@
+[21-Jan-2018 07:17:47 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 34
+[21-Jan-2018 07:17:51 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 34
+[21-Jan-2018 07:17:53 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 34
+[21-Jan-2018 07:18:00 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 34
+[21-Jan-2018 07:18:02 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 34
+[21-Jan-2018 07:18:12 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 34
+[21-Jan-2018 07:41:12 UTC] PHP Notice:  Undefined variable: category in /home/technicheiitg/public_html/techexpo/registration/index.php on line 4
+[21-Jan-2018 07:41:12 UTC] PHP Notice:  Undefined variable: categoryErr in /home/technicheiitg/public_html/techexpo/registration/index.php on line 462
+[21-Jan-2018 07:41:17 UTC] PHP Notice:  Undefined variable: category in /home/technicheiitg/public_html/techexpo/registration/index.php on line 4
+[21-Jan-2018 07:41:17 UTC] PHP Notice:  Undefined variable: categoryErr in /home/technicheiitg/public_html/techexpo/registration/index.php on line 462
+[21-Jan-2018 07:47:36 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 122
+[21-Jan-2018 07:48:20 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 122
+[21-Jan-2018 07:49:19 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 122
+[21-Jan-2018 07:49:20 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 122
+[22-Jan-2018 15:45:43 UTC] PHP Parse error:  syntax error, unexpected ''contact'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 161
+[22-Jan-2018 15:45:54 UTC] PHP Parse error:  syntax error, unexpected ''contact'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 161
+[22-Jan-2018 15:45:57 UTC] PHP Parse error:  syntax error, unexpected ''contact'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 161
+[22-Jan-2018 15:46:04 UTC] PHP Parse error:  syntax error, unexpected ''contact'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 161
+[22-Jan-2018 17:51:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 126
+[28-Jan-2018 05:20:56 UTC] PHP Warning:  require_once(../techexpo/PHPMailer-master/class.phpmailer.php): failed to open stream: No such file or directory in /home/technicheiitg/public_html/techexpo/registration/upload.php on line 37
+[28-Jan-2018 05:20:56 UTC] PHP Fatal error:  require_once(): Failed opening required '../techexpo/PHPMailer-master/class.phpmailer.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/technicheiitg/public_html/techexpo/registration/upload.php on line 37
+[28-Jan-2018 05:21:08 UTC] PHP Warning:  require_once(../techexpo/PHPMailer-master/class.phpmailer.php): failed to open stream: No such file or directory in /home/technicheiitg/public_html/techexpo/registration/upload.php on line 37
+[28-Jan-2018 05:21:08 UTC] PHP Fatal error:  require_once(): Failed opening required '../techexpo/PHPMailer-master/class.phpmailer.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/technicheiitg/public_html/techexpo/registration/upload.php on line 37
+[28-Jan-2018 05:22:06 UTC] PHP Warning:  require_once(/PHPMailer-master/class.phpmailer.php): failed to open stream: No such file or directory in /home/technicheiitg/public_html/techexpo/registration/upload.php on line 37
+[28-Jan-2018 05:22:06 UTC] PHP Fatal error:  require_once(): Failed opening required '/PHPMailer-master/class.phpmailer.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/technicheiitg/public_html/techexpo/registration/upload.php on line 37
+[28-Jan-2018 05:22:12 UTC] PHP Warning:  require_once(/PHPMailer-master/class.phpmailer.php): failed to open stream: No such file or directory in /home/technicheiitg/public_html/techexpo/registration/upload.php on line 37
+[28-Jan-2018 05:22:12 UTC] PHP Fatal error:  require_once(): Failed opening required '/PHPMailer-master/class.phpmailer.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/technicheiitg/public_html/techexpo/registration/upload.php on line 37
+[10-Feb-2018 11:34:00 UTC] PHP Notice:  Undefined index: dasdasdassadda in /home/technicheiitg/public_html/techexpo/registration/index.php on line 168
+[10-Feb-2018 11:34:00 UTC] PHP Notice:  Undefined index: damantekchandani5@gmail.com in /home/technicheiitg/public_html/techexpo/registration/index.php on line 176
+[10-Feb-2018 12:06:41 UTC] PHP Notice:  Undefined index: wa in /home/technicheiitg/public_html/techexpo/registration/index.php on line 168
+[10-Feb-2018 12:06:41 UTC] PHP Notice:  Undefined index: damantekchandani5@gmail.com in /home/technicheiitg/public_html/techexpo/registration/index.php on line 178
+[10-Feb-2018 12:22:35 UTC] PHP Notice:  Undefined index: The Invincibles in /home/technicheiitg/public_html/techexpo/registration/index.php on line 168
+[10-Feb-2018 12:22:35 UTC] PHP Notice:  Undefined index: daman@iitg.ernet.in in /home/technicheiitg/public_html/techexpo/registration/index.php on line 178
+[10-Feb-2018 13:09:24 UTC] PHP Warning:  stream_select(): unable to select [4]: Interrupted system call (max_fd=4) in /home/technicheiitg/public_html/techexpo/registration/vendor/phpmailer/phpmailer/src/SMTP.php on line 1124
+[14-Mar-2018 15:25:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/technicheiitg/public_html/techexpo/registration/index.php on line 97

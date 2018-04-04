@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TechExpo</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css" />
+
+
+    <!--Home-->
+    
+    <link rel="stylesheet" href="stylemain.css">
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Montserrat:300,400,700'>
+   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+   function myFunction() {
+    setTimeout(showPage, 1000);
+}
+
+function showPage() {
+  document.getElementById("cupcake").style.opacity = "0";
+    document.getElementById("cupcake").style.zIndex = "2";
+    
+   document.getElementById("body").style.display= "block";
+    document.getElementById("body").style.opacity = "1";
+    
+}
+    </script>
+<!--EndHome-->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <style>
+    .btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.text {
+  background-color: #1dba9b;
+  color: black;
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 10px 10px;
+}
+.team-member {
+}
+
+#image1 {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -200%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.team-member:hover #image1 {
+  opacity: 0.3;
+}
+
+.team-member:hover .middle {
+  opacity: 1;
+}
+
+#linkk{
+
+    transition: transform 0.5s ease;
+}
+
+#hrefl:hover #linkk{
+    transform: rotate(360deg);}
+
+#leftc {
+    animation-name: leftfly;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes leftfly{
+    0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateX(30px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#rightc {
+    animation-name: rightfly;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+
+@keyframes rightfly{
+    0% {
+        opacity: 0;
+        transform:translateX(2000px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateX(-30px);
+    }
+
+    80%{
+        transform: translateX(10px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+#anim{
+    animation-name: kmore;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes kmore{
+    0%{
+        transform: translateY(0px);
+    } 
+
+
+    50%{
+    transform : translateY(5px);
+}
+
+    100%{
+        transform: translateY(0px);
+    }
+
+
+}
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 1px;
+  color: #2E3D48;
+  -webkit-animation: 0.7s blink step-end infinite;
+  animation: 0.7s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+</style>
+    <script>
+    
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index" style="background-color: black;" onload="myFunction()">
+
+<!-- Navigation
+    ==========================================-->
+<nav id="navbar">
+
+<div id="mySidenav" class="sidenav">
+ <div id="menu-item">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+  <a href="https://www.techniche.org/" active>Home</a>
+  
+  <p tabindex="0" onclick="events()" style="outline:none">Events <i class="material-icons" style="float:right;margin-right:10px;">arrow_drop_down</i></p>
+  <div class="submenu-list" id="events-submenu">
+    <a href="https://www.techniche.org/LS/">Lecture Series</a>
+    <a href="https://www.techniche.org/industrial_conclave/">Industrial Conclave</a>
+    <a href="">Exhibitions</a>
+    <a href="">Funniche</a>
+    <a href="">Shows</a>
+    <a href="https://www.techniche.org/ghm/">Guwahati Half Marathon</a>
+    
+  </div>
+    
+    
+  
+  <p tabindex="0" onclick="competitions()" style="outline:none" autofocus>Competitions <i class="material-icons" style="float:right;margin-right:10px;">arrow_drop_down</i></p> 
+<div class="submenu-list" id="competitions-submenu">
+    <a href="https://www.techniche.org/robotics/">Robotics</a>
+    <a href="https://www.techniche.org/corporate/">Corporate</a>
+    <a href="https://www.techniche.org/techolympics/">TechOlympics</a>
+    <a href="https://www.techniche.org/techexpo/">TechExpo</a>
+    <a href="http://technothlon.techniche.org">Technothlon</a>
+ </div>
+
+  <a href="">Workshops</a>
+  
+  <a href="#">Initiatives</a>
+  
+</div>
+</div>
+
+<div style="padding-top:15px;padding-left:20px;display:inline-block;position:relative;" onclick="openNav()"> 
+   <a onclick="openNav()" id="menu-btn"> 
+       <span class="bar" id="bar1"></span>
+        <span class="bar" id="bar2"></span>
+        <span class="bar"></span>
+    </a>
+
+</div>
+
+<div class="logo" id="logo">
+    <a href="https://www.techniche.org/">
+        <img src="img/Logo_Techniche2018_.png" alt="techniche">
+    </a>
+</div>
+
+<div style="display: inline-block; float: right;">
+<span style="float:right; padding:15px;padding-right:5vw">
+    <a href="#notif" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="notif" onclick="openNot()">
+        <i class="material-icons" id="notification">notifications</i>
+    </a>
+</span>
+<div class="collapse" id="notif">
+    <h4 style="margin-left: 10px; color=#1dba9b" class="text-center">Latest Updates</h4>
+    <h5 class="text-center" style="margin-left: 10px;">Techniche website is live.<br><a href="https://www.techniche.org/">Visit</a></h5>
+    <br><br><br><br><br><br><br><br>
+    <div class="text-center"><a href="javascript:void(0)" class="closebtn" onclick="closeNot()"><i class="fa fa-times"></i></a></div>
+</div>
+</div>
+
+</nav>
+
+<!--Navbar End-->
+
+    
+
+    <!-- Header -->
+    <header style="position: relative;z-index: 0;background: rgba(0,0,0,0.3)">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in"></div>
+                <div class="intro-heading">TechExpo 2018</div>
+                <div class="intro-lead-in" style="font-size: 28px;">Where innovations come to life.</div>
+                <a class="page-scroll" href="#About"><i class="fa fa-arrow-down fa-3x" id="anim" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="wrapper-bottom" style="position: absolute;top:0;height: 100%; width: 100%;z-index: -1;
+        background-image: url(../techexpo/img/header-bg3.jpg);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;text-align:center;">
+        </div>
+        
+    </header>
+
+    <!-- About Section -->
+    <section id="About" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">What is TechExpo?</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12 text-left">
+                    <h4 class="service-heading" style="    font-weight: 400;     word-spacing: 3px; line-height: 1.77;">Techniche (The annual Techno-Management festival of IIT Guwahati) now in its 20th edition has taken up the initiative of organising <strong>TechExpo</strong>, with the cardinal aim of bringing to light the technological advancements made by the youth of this country and provide an opportunity to showcase their innovations on a larger platform. The prime motive is to inspire the young minds in India to engage in creating new ideas and to promote the idea of innovation very much on the lines of Make In India and Startup India.
+</h4>
+                    <p class="text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Grid Section -->
+    <section id="Benefits" class="bg-light-gray" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">What’s in it for me?</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12 text-left">
+                    <h4 class="service-heading" style="    font-weight: 400;     word-spacing: 3px;line-height: 1.77;">TechExpo has been initiated with the cardinal aim of bringing to light the technological advancements made by the youth of the country. It provides a platform for students across the nation to showcase their research projects to a plethora of onlookers.</h4>
+                    <h4 class="service-heading" style="    font-weight: 400;     word-spacing: 3px;line-height: 1.77"> TechExpo provides its participants with a unique opportunity to visit IIT Guwahati,                              and interact with the highly esteemed guests present at Techniche. This is a once in a lifetime opportunity to interact with some of the most distinguished personalities from across the globe, which includes the likes of Corporate personalities, Researchers, and Nobel Laureates! The level of exposure is unparalleled! (For a full list of speakers who have been a part of Techniche, <a href="#team">click here</a>).This is an incredible opportunity for people with financial restrictions to acquire funding to progress with their research projects!</h4>
+                    <h4 class="service-heading text-center" style="    font-weight: 400;     word-spacing: 3px;line-height: 2.00;">Not to mention, the winners of the event take home cash prizes worth <strong style="font-size: 30px;line-height: 1.70" id="pricetext"></br></strong>. </h4>
+                    <h4 class="service-heading text-center" style="    font-weight: 400;     word-spacing: 3px;line-height: 1.77;font-size: 22px;">Sounds interesting? We bet it does!<br><br></h4>
+                    <h3 class="service-heading text-center" style="    font-weight: 400;     word-spacing: 3px;line-height: 1.77;font-size: 22px;"><strong>LET'S MAKE IT MORE INTERESTING FOR YOU. Shall We?</strong><br></h3><br><br><br>
+                    <h4 class="service-heading" style="    font-weight: 400;     word-spacing: 3px;line-height: 1.77">Monetary gifts fade in comparison to the gift of knowledge. But here at TechExpo, you get the best of both. Along with prizes worth up to Rs 3,50,000, you also get a chance to learn from the best of their fields as Professors of Indian Institute of Technology, Guwahati have agreed to share their knowledge and time with those having a passion for learning and implementing those learnings to the advancement of our nation and mankind. All you have to do is to stun our judges by demonstrating this passion and making a project that will amaze us all. And fret not, this <strong>Mentorship Programme</strong> is not just limited to the winner of TechExpo as all the candidates will be given a chance to impress our esteemed professors by pitching their projects directly to them.</h4><br><br><br><br><br><br><br><br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Any categories?<br><br></h2>
+                    <h3 class="section-subheading text-muted">Yes, definitely. In this edition of Techexpo, to further enhance the experience, there will be 2 independent categories.</h3>
+                </div>
+                <div class="col-md-offset-2 col-md-4" id="junior"><button class="btn btn-primary" style="width: 80%;" id="jbtn">JUNIOR</button></div>
+                <div class="col-md-4" id="senior" ><button class="btn btn-primary" style="width: 80%;" id="sbtn">SENIOR</button></div>
+
+            </div>
+            </br></br></br></br>
+<div class="row">
+
+
+    <div class="col-md-6">    <!--Card image-->
+    <img class="img-responsive" id="catimg" src="../techexpo/img/low.jpg" width="60%" alt="Card image cap" style="border-radius: 8px;width: 100%">
+    <!--/.Card image--></div>
+
+        <!--Title-->
+    <div class="col-md-6" >
+        <h3 class="card-title" id="cattitle">Junior Category</h3>
+        <!--Text-->
+        <ul style="line-height: 1.77;font-size: 16px;" id="cattext">
+        <li>The TechExpo junior category is targeted towards school students from across the nation. It is an opportunity for school going students to display their projects to the large multitude of people present at the event.</li>
+        <li>To be eligible for this category, participants must be under the age of 18 at the time of announcement. </li>
+        <li>Participants who turn 18 at the time of submission are eligible to compete.</li>
+        <!--<a href="#" class="btn btn-primary">Button</a>-->
+        </ul>
+        </div>
+    </div>
+
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="Registration" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Registration</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <!--<h3 class="service-heading" style="    font-weight: 400;     word-spacing: 3px;">You can <a href="registration\index.php"><strong>REGISTER</strong></a> here!<br><br> -->
+</h3>
+
+                    <h4 class="service-heading" style="    font-weight: 500;     word-spacing: 3px;line-height: 1.55">All you have to do is submit a detailed sketch of your project and a video (optional) which will undergo a preliminary round of screening after which the selected teams will get the opportunity to showcase their projects during the event at IIT Guwahati.</h4>
+                    <h4 class="service-heading" style="    font-weight: 500;     word-spacing: 3px;line-height: 1.55">Interested candidates are required to fill the registration form before 11:59 PM <strong style="font-size: 20px;">20th June, 2018 (TBD)</strong>. Students can register as individuals or as a team upto 4 members. Participants are not allowed to register in more than one team, if found, they will be disqualified.
+                    </h4><br>
+                    <a href="registration\index.php"><button type="button" class="btn btn-xl" style="line-height: 1;" name="register"><strong>REGISTER HERE</strong></button></a><br><br>
+                    <p class="text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Previous Year Judges</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <h4 class="service-heading" style="    font-weight: 400;     word-spacing: 3px;">We make sure, every year, the participants get the opportunity to be judged by those who have excelled in their field of expertise and have them share their deep insight on the projects.</h4><br><br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" id="image1" alt="" width="214px" height="214px" style="width: 214px;height: 214px;">
+                        <div class="middle">
+                            <div class="text">Dr. Thomas Barclay
+                            </div>
+                        </div>
+                        <h4>Dr. Thomas Barclay</h4>
+                        <p class="text-muted">Research Scientist, </br>NASA</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" id="image1" alt="" width="214px" height="214px" style="width: 214px;height: 214px;">
+                        <div class="middle">
+                            <div class="text">Brooks Moore
+                            </div>
+                        </div>
+                        <h4>Brooks Moore</h4>
+                        <p class="text-muted">Host: How It's Made, </br>Discovery Channel</p>
+                        
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" id="image1" alt="" width="214px" height="214px">
+                        <div class="middle">
+                            <div class="text">Dr. Jagannath Raju
+                            </div>
+                        </div>
+                        <h4>Dr. Jagannath Raju</h4>
+                        <p class="text-muted">CTO, </br>Systemantics India</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/4.jpg" class="img-responsive img-circle" id="image1" alt="" style="width: 214px;height: 214px;">
+                        <div class="middle">
+                            <div class="text">Monish Salot
+                            </div>
+                        </div>
+                        <h4>Monish Salot</h4>
+                        <p class="text-muted">Co-Founder, </br>ThinkAnalytics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="testimonials" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Testimonials</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>DEVRISHI BHARADWAJ</h4>
+                                    <h4 class="subheading"></h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">TechExpo was amazing with great projects from different parts of the country. It was better than other science exhibitions as it was open to all categories of science projects. The interaction with people from diverse fields ranging from academia, research and development to industries made it unique. I would like to convey my gratitude to the organizers of TechExpo 2017, especially to the Convener of Techniche 2017, Animesh Jain. I will never forget the help they rendered for my exclusive meeting with Bharat Salhotra, MD of Alstom India.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>BHARAT INNOVATES UNIVERSALS</h4>
+                                    <h4 class="subheading"></h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">TechExpo was true to its words about the grand exposure. We could interact with IIT professors, CEOs and a large number of the common public which greatly helped us. Securing the 19th position motivated us to take our concept to the market. We are fortunate to get the guidance of Prof. Pradeep Yammiyavar, HoD of Design IITG. TechExpo will be turning point in the creation of BIU.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-body">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>TEAM TECH-KNIGHTS, NIT MEGHALAYA</h4>
+                                    <h4 class="subheading"></h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">We participated in Tech-expo 2017 during Techniche'17 in IIT Guwahati, where we got the golden opportunity to present our innovative project on a national platform in front of the most talented persons like IIT Guwahati professors, national and international judges. There were many innovative projects from different parts of the country. According to our team, it was the best event in which we have participated ever. We are very thankful to IIT Guwahati for giving us this opportunity.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
+                                    <br>Of Our
+                                    <br>Story!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                
+            </div>
+        </div>
+    </aside>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                    <h4 class="section-heading" style="color: #dedada;"><a href="https://www.facebook.com/konark.145.jain" target="_blank">Konark Jain</a></h4>
+                    <h4 class="section-heading" style="font-size: 17px"><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+919957997211">   +919957997211</a> </h4> 
+                </div>
+                <div class="col-md-4">
+                    <h4 class="section-heading" style="color: #dedada;"><a href="https://www.facebook.com/avani.vivrekar" target="_blank"> Avani Vivrekar</a></h4>
+                    <h4 class="section-heading" style="font-size: 17px"><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+917086053223">   +917086053223</a> </h4> 
+                </div>
+                <div class="col-md-3">
+                    <h4 class="section-heading" style="color: #dedada;"><a href="https://www.facebook.com/parth.sheth99" target="_blank">Parth Sheth</a></h4>
+                    <h4 class="section-heading" style="font-size: 17px"><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+919082075983">   +919082075983</a> </h4> 
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a class="page-scroll" href="#page-top"><i class="fa fa-arrow-up fa-3x" id="anim" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background-color: white;">
+        <div class="container" >
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; <a href="https://www.techniche.org" target="_blank">Techniche '18</a></span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.facebook.com/techniche.iitguwahati/?fref=ts" target="_blank" id="hrefl"><i class="fa fa-facebook" id="linkk"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/techniche_iitg" target="_blank" id="hrefl"><i class="fa fa-twitter" id="linkk"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/techniche/" target="_blank" id="hrefl"><i class="fa fa-instagram" id="linkk"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-envelope" aria-hidden="true"></i><span class="copyright"><a href="mailto:techexpo@techniche.org" style="color:#333;">  Contact Us</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+
+
+    <script src="js/jquery-2.1.4.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
+<script src="js/blinds.js"></script>
+
+
+
+
+<script>
+
+function openNot() {
+    document.getElementById("notif").style.width="200px";
+    document.getElementById("notif").style.height="250px";
+}     
+
+function closeNot() {
+    document.getElementById("notif").style.width="0";
+    document.getElementById("notif").style.height="0";
+}    
+    
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementsByClassName("submenu").style.height = "0" ;
+    
+}
+    
+$(document).ready(function(){
+  initialize();
+});
+    
+    
+  
+        
+
+var scrolpos = 0;
+var navbar =  document.getElementById('navbar');
+var logobg = document.getElementById('logo');
+var menuBars = document.getElementsByClassName('bar');
+
+    
+ 
+    window.addEventListener('scroll',function(){
+        
+        
+      // document.getElementById('background').style.top = '0px';
+        
+        scrolpos = window.scrollY; 
+        var i = 0;
+        
+     
+        
+       if(scrolpos>80){
+           navbar.style.backgroundColor = '#ffffff';
+         navbar.style.borderBottom = '2px solid #1dba9b';
+        logo.style.backgroundColor = '#ffffff';
+           logo.style.borderBottom = '2px solid #1dba9b';
+           document.getElementById('notification').style.color = '#1dba9b';
+           
+          
+    for (i = 0; i < menuBars.length; i++) {
+    menuBars[i].style.backgroundColor = "#1dba9b";
+}
+            
+           
+        }
+        else{
+          navbar.style.backgroundColor = 'transparent';
+          navbar.style.borderBottom = 'none';
+          logo.style.backgroundColor = 'transparent';
+            
+          /*  for (i = 0; i < menuBars.length; i++) {
+    menuBars[i].style.backgroundColor = "#ffffff";
+}
+   */         
+           
+           
+           
+        } 
+        
+               
+      if(scrolpos >= 1500){
+           // document.getElementById("mySidenav").style.width = "250px";
+        }
+        else{
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        
+        }
+    )
+    
+   
+    
+</script>
+<script src="main.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+    <script type="text/javascript">
+
+        $(window).load(function(){
+            $('#sbtn').css({'backgroundColor': '#bdbfc1','borderColor': '#fffddd'});
+            var k = 0;
+            function SlideShow(){
+            k+=1
+            console.log(k);
+            $('.wrapper-bottom').fadeOut(1000, function(){
+                $(this).css({'background-image':'url(../techexpo/img/header-bg'+k+'.jpg)'});}).fadeIn(1000);
+
+
+            if(k==3){
+                k=k%3;
+            }
+            }
+            setInterval(SlideShow, 7000);
+        });
+
+        $(document).ready(function(){
+            var text=["Rs 3.5 Lakhs"];
+            var len = text[0].length;
+            var i =0;
+            var txt="";
+            function start(){
+                if(i<len){
+                    var txt = text[0][i];
+                    $('#pricetext').append(txt).show();
+                    i++;
+                    setTimeout(start, 150);
+                    //console.log(1);
+                }
+                if(i==len){
+                    $('.blinking-cursor').fadeOut(2000);
+                    //console.log(2);
+                    setTimeout(stop, 2000);
+                    return
+                }
+            }
+            function stop(){
+                if(i>=0){
+                    var txt = text[0][i];
+                    console.log(3);
+                    var temp = $('#pricetext').text();
+                    var temp = temp.substring(0, temp.length - 1);
+                    //console.log(temp);
+                    //console.log(i);
+                    //console.log(len);
+                    $('#pricetext').text(temp);
+                    i--;
+                    setTimeout(stop, 150);
+                }
+                if(i==0){
+                    //console.log(4);
+                    $('.blinking-cursor').fadeOut(2000);
+                    setTimeout(start, 2000);
+                }
+            }
+            start();
+
+
+            $('#junior').on('click', function(){
+                $('#jbtn').css({'backgroundColor': '#1dba9b','borderColor': '#1dba9b'});
+                $('#sbtn').css({'backgroundColor': '#bdbfc1','borderColor': '#fffddd'});
+                $('#cattitle').text('Junior Category');
+                $('#cattext').html("<li>The TechExpo junior category is targeted towards school students from across the nation. It is an opportunity for school going students to display their projects to the large multitude of people present at the event.</li><li>To be eligible for this category, participants must be under the age of 18 at the time of announcement. </li><li>Participants who turn 18 at the time of submission are eligible to compete.</li>");
+                $('#catimg').attr('src', '../techexpo/img/low.jpg');
+            });
+            $('#senior').on('click', function(){
+                $('#jbtn').css({'backgroundColor': '#bdbfc1','borderColor': '#fffddd'});
+                $('#sbtn').css({'backgroundColor': '#1dba9b','borderColor': '#1dba9b'});
+                $('#cattitle').text('Senior Category');
+                $('#cattext').html("<li>The TechExpo senior category is a platform for inquisitive individuals with an unquenchable thirst for science, to get feedback on their research work/DIY projects from highly distinguished personas in the field of science.</li><li>To be eligible for this category, participants must be under the age of 30 at the time of announcement.</li><li>Participants who turn 30 at the time of submission are eligible to compete</li>");
+                $('#catimg').attr('src', '../techexpo/img/adv.jpg');
+            });
+
+            $('#fileInput').on('change', function () {
+            var k= this.value.split("fakepath");
+            var using = k[1].substring(1, k[1].length);
+            $('.fileinput-filename').text(using);
+            $('.fileinput-filename').css({'color':'black', 'fontSize':'16px'});
+            });
+
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
